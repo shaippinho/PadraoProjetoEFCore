@@ -20,7 +20,7 @@ namespace AcessoDados.Modelo
         {
             optionsBuilder.UseSqlServer(
                 //@"data source=.;Database=TesteEFCore; user id=sa;password=desenv123!;", 
-                "Data Source=localhost;Initial Catalog=TesteEFCore;Integrated Security=False;User ID=sa;Password=desenv123!;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False",
+                "Data Source=localhost;Initial Catalog=TesteEFCore;Integrated Security=False;User ID=sa;Password=123;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False",
                 builder => 
                                         {
                                             builder.EnableRetryOnFailure(5,TimeSpan.FromSeconds(10), null);
