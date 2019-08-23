@@ -4,6 +4,7 @@ Padrão de Projetos com EF Core com Fluent API, Repository Pattern
 Script do BD utilizado:
 
 ################################################
+
 create database TesteEFCore
 
 GO
